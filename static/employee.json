@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 19,
+        "documentI": "676767676",
+        "name": "David",
+        "phone": "5802514",
+        "email": "email2@gmail.com",
+        "type_employee": 1
+    },
+    {
+        "pk": 21,
+        "documentI": "4157421",
+        "name": "Alfredo",
+        "phone": "4157458",
+        "email": "alfredo@gmail.com",
+        "type_employee": 2
+    },
+    {
+        "pk": 22,
+        "documentI": "1574157",
+        "name": "Prueba",
+        "phone": "1245747",
+        "email": "prueba@gmail.com",
+        "type_employee": 2
+    }
+]

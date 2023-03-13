@@ -1,0 +1,309 @@
+WARNING:django.request:Not Found: /home/Index/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_LIST_INVENTORY/ HTTP/1.1" 200 341292
+WARNING:django.request:Not Found: /shopping/Create_Shopping/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+WARNING:django.request:Not Found: /inventory/List_Inventory/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /shopping/CHECK_INVOICE_NUMBER/ HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 162
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 149
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 164
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 150
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 159
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 159
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_LIST_INVENTORY/ HTTP/1.1" 200 341292
+WARNING:django.request:Not Found: /shopping/Create_Shopping/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /shopping/CHECK_INVOICE_NUMBER/ HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /shopping/CHECK_INVOICE_NUMBER/ HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /shopping/CHECK_INVOICE_NUMBER/ HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 149
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+WARNING:django.request:Not Found: /inventory/List_Inventory/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 161
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 166
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 168
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 159
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 149
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 168
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 150
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 166
+WARNING:django.request:Not Found: /inventory/List_Inventory/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /client/GET_LIST_CLIENT/ HTTP/1.1" 200 116
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /invoice_fe/GET_CONSECUTIVE/ HTTP/1.1" 200 18
+WARNING:django.request:Not Found: /invoice_pos/Create_Invoice_POS/vendors/images/github.svg
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/GET_PRODUCT/ HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /employee/Validate_Login/ HTTP/1.1" 200 101
+WARNING:django.request:Not Found: /home/Index/vendors/images/github.svg
+WARNING:django.request:Not Found: /home/Index/vendors/images/github.svg
+WARNING:django.request:Not Found: /home/Index/vendors/images/github.svg
+INFO:django.utils.autoreload:C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\home\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector

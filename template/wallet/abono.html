@@ -1,0 +1,105 @@
+{% extends '../base.html' %}
+{% block content %}
+<div class="card-box mb-30">
+	<div class="pd-20">
+		<h4 class="text-blue h4">Todas las Facturas</h4>
+	</div>
+	<div class="pb-20">
+		<table id="add_to_table_invoice" class="table stripe hover nowrap">
+			<thead>
+				<tr>
+					<th class="table-plus datatable-nosort" style="width: 10%;">N° Factura</th>
+					<th style="width: 7%;">Cliente</th>
+					<th style="width: 7%;">Total</th>
+					<th style="width: 7%;">Abonado</th>
+					<th style="width: 7%;">Restante</th>
+					<th style="width: 7%;">Dias Cred.</th>
+					<th style="width: 7%;">Fecha Venc.</th>
+					<th style="width: 12%;">Abonar</th>
+					<th style="width: 7%;">Pagar</th>
+				</tr>
+			</thead>
+			<tbody class="father"></tbody>
+				{% for i in data %}
+					<tr>
+						<td>{{i.number_invoice}}</td>
+						<td>{{i.client}}</td>
+						<td><span id="total{{i.number_invoice}}">{{i.total}}</span></td>
+						<td><span id="abono{{i.number_invoice}}">{{i.abono}}</span></td>
+						<td><span id="restante{{i.number_invoice}}">{{i.total_pago}}</span></td>
+						<td>{{i.days_in_debt}}</td>
+						<td>{{i.date_expired}}</td>
+						<td>
+							<input type="number" class="form-control amount{{i.number_invoice}} price"  id="{{i.number_invoice}}"/>
+						</td>
+						<td>
+
+							<span class="btn_pass{{i.pk}}"><button class="btn btn-primary abono" id="{{i.number_invoice}}">Abonar</button></span>
+						</td>
+					</tr>
+				{% endfor %}
+		</table>
+	</div>
+</div>
+
+<div class="pd-20 card-box mb-30 col-sm-3 col-12 ml-auto">
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>Total:</td>
+				<td style="text-align: right;">$ &nbsp;<span id="Totals_Invoice">{{total}}</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}
+{% block script %}
+
+	<script>
+
+		function Calculate(id){
+			amount = Number($(".amount"+id).val())
+			total = Number($("#total"+id).text())
+			if(amount <= total){
+				if(amount > 0){
+					result = total - amount
+					$("#restante"+id).text(result)
+					abono = Number($("#abono"+id).text()) + amount
+					$("#abono"+id).text(abono)
+				}
+				else{
+					$.gritter.add({
+	                    title: 'ERROR',
+	                    text: "Monto no puede ser igual a cero y menos ser menor a cero.",
+	                    time:5000
+	                });
+				}
+			}
+			else{
+				console.log(amount)
+				console.log(total)
+				$.gritter.add({
+                    title: 'ERROR',
+                    text: "Monto es mayor al monto total.",
+                    time:5000
+                });
+			}
+		}
+
+		$(".price").on('keypress',function(event){
+			id = this.id
+			var keycode = (event.keyCode ? event.keyCode : event.which);
+		    if(keycode == '13'){
+		        Calculate(id)
+		    }
+		})
+
+		$(".abono").on('click',function(){
+			id = this.id
+			Calculate(id)
+		})
+
+	</script>
+
+{% endblock %}

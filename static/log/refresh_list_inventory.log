@@ -1,0 +1,28 @@
+ERROR:django.request:Internal Server Error: /inventory/UPDATED_PRODUCT/
+Traceback (most recent call last):
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\myenv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\myenv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\inventory\views.py", line 49, in UPDATED_PRODUCT
+    Refresh_List_Inventory(request)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\inventory\views.py", line 63, in Refresh_List_Inventory
+    logging.basicConfig(filename=path, encoding='utf-8', level=logging.DEBUG)
+  File "C:\Users\negrita\AppData\Local\Programs\Python\Python37\lib\logging\__init__.py", line 1916, in basicConfig
+    raise ValueError('Unrecognised argument(s): %s' % keys)
+ValueError: Unrecognised argument(s): encoding
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9090
+DEBUG:urllib3.connectionpool:http://localhost:9090 "POST /inventory/UPDATE_PRODUCT/ HTTP/1.1" 200 43
+ERROR:django.request:Internal Server Error: /inventory/UPDATED_PRODUCT/
+Traceback (most recent call last):
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\myenv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\myenv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\inventory\views.py", line 49, in UPDATED_PRODUCT
+    Refresh_List_Inventory(request)
+  File "C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\inventory\views.py", line 62, in Refresh_List_Inventory
+    os.remove(path)
+PermissionError: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: './static/log/refresh_list_inventory.log'
+INFO:django.utils.autoreload:C:\Users\negrita\Videos\proyectos\soft_ferreteria\ferremalu\inventory\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector

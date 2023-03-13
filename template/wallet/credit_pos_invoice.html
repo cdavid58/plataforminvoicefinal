@@ -1,0 +1,85 @@
+{% extends '../base.html' %}
+{% block content %}
+<div class="card-box mb-30">
+	<div class="pd-20">
+		<h4 class="text-blue h4">Todas las Facturas</h4>
+	</div>
+	<div class="pb-20">
+		<table id="add_to_table_invoice" class="table stripe hover nowrap">
+			<thead>
+				<tr>
+					<th class="table-plus datatable-nosort" style="width: 10%;">N° Factura</th>
+					<th style="width: 7%;">Cliente</th>
+					<th style="width: 7%;">Total</th>
+					<th style="width: 7%;">Empleado</th>
+					<th style="width: 7%;">Dias Cred.</th>
+					<th style="width: 7%;">Fecha Venc.</th>
+					<th style="width: 12%;">Forma de Pago</th>
+					<th style="width: 7%;">Pagar</th>
+				</tr>
+			</thead>
+			<tbody class="father"></tbody>
+				{% for i in data %}
+					<tr>
+						<td>{{i.number_invoice}}</td>
+						<td>{{i.client}}</td>
+						<td><span id="total{{i.number_invoice}}">{{i.total}}</span></td>
+						<td>{{i.employee}}</td>
+						<td>{{i.days_in_debt}}</td>
+						<td>{{i.date_expired}}</td>
+						<td>
+							<select class="form-control payment_form{{i.number_invoice}}">
+								<option value="Efectivo">Efectivo</option>
+								<option value="Consignacion">Consignación</option>
+							</select>
+							<span id="payment_form_result{{i.number_invoice}}"></span>
+						</td>
+						<td>
+							<span class="btn_cancelled{{i.pk}}"><button class="btn btn-primary cancelled" id="{{i.number_invoice}}">Cancelar</button></span>
+						</td>
+					</tr>
+				{% endfor %}
+		</table>
+	</div>
+</div>
+
+<div class="pd-20 card-box mb-30 col-sm-3 col-12 ml-auto">
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>Total:</td>
+				<td style="text-align: right;">$ &nbsp;<span id="Totals_Invoice">{{total}}</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}
+{% block script %}
+
+	<script>
+
+		$(".cancelled").on('click',function(){
+			id = this.id
+			value = parseFloat($("#total"+id).text())
+			total = parseFloat($("#Totals_Invoice").text())
+			$("#Totals_Invoice").text(total - value)
+			$("#"+id).hide();
+			$(".payment_form"+id).hide();
+			$(".btn_cancelled"+id).text("Cancelado")
+
+			payment_form = $(".payment_form"+id).val()
+			$("#payment_form_result"+id).text(payment_form)
+			$.ajax({
+				url:"{% url 'UPDATE_WALLET_POS' %}",
+				data:{'pk':id,'payment_form':payment_form},
+				success:function(data){
+
+				}
+			})
+
+		})
+
+	</script>
+
+{% endblock %}

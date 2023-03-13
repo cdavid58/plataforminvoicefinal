@@ -1,0 +1,253 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block loading %}Agreguemos un producto{% endblock %}
+{% block content %}
+
+<div class="alert_register_2"></div>
+<div class="alert alert-primary alert-dismissible fade show alert_register" hidden role="alert">
+	<strong>Producto Registrado Exitosamente!.</strong>
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">×</span>
+	</button>
+</div>
+<div class="pd-20 card-box mb-30">
+	<div class="clearfix">
+		<div class="pull-left">
+			<h4 class="text-blue h4">Agregar Producto</h4>
+		</div>
+		 <div class="pull-right">
+			<div class="col-md-5 col-12">
+			    <button class="btn btn-primary code_bars" type="button">Scanner</button>
+			</div>
+		</div>
+	</div>
+	<form class="form_data_product">
+		<br>
+		<div class="form-group row">
+			<label class="col-sm-12 col-md-2 col-form-label">Código</label>
+			<div class="col-sm-12 col-md-10">
+				<input name="code" class="form-control docI" type="text" autofocus>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 col-md-2 col-form-label">Nombre del Producto</label>
+			<div class="col-sm-12 col-md-10">
+				<input name="name" class="form-control name_product" type="text" placeholder="Harina Pan">
+			</div>
+		</div>
+		<!-- <div class="form-group row">
+			<label class="col-sm-12 col-md-2 col-form-label">Cantidad</label>
+			<div class="col-sm-12 col-md-10">
+				<input name="quanty" class="form-control text-right" value="0" type="number">
+			</div>
+		</div> -->
+		<div class="form-group row">
+			<div class="col-md-4 col-4">
+				<div class="form-group">
+					<label>Cantidad</label>
+					<input type="number"  name="quanty" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-4 col-4">
+				<div class="form-group">
+					<label>Metros</label>
+					<input type="number" name="metros" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-4 col-4">
+				<div class="form-group">
+					<label>Unidad</label>
+					<input type="number" name="und" value="0" class="form-control text-right">
+				</div>
+			</div>
+		</div>
+		<!-- <div class="form-group row">
+			<label class="col-sm-12 col-md-2 col-form-label">IVA</label>
+			<div class="col-sm-12 col-md-10">
+				<input name="tax" class="form-control text-right" value="0" type="number">
+			</div>
+		</div> -->
+
+		<div class="form-group row">
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Costo</label>
+					<input type="number" name="cost" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Precio 1</label>
+					<input type="number" name="price_1" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Precio 2</label>
+					<input type="number" name="price_2" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Precio 3</label>
+					<input type="number" name="price_3" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Precio 4</label>
+					<input type="number" name="price_4" value="0" class="form-control text-right">
+				</div>
+			</div>
+			<div class="col-md-2 col-4">
+				<div class="form-group">
+					<label>Precio 5</label>
+					<input type="number" name="price_5" value="0" class="form-control text-right">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<button type="button" class="btn btn-primary register_product">Registrar producto</button>
+			<a type="button" href="{% url 'List_Inventory' %}" class="btn btn-primary col-xs-12 register_client ml-auto">Lista de producto</a>
+		</div>
+	</form>
+</div>
+
+<a href="#" hidden class="btn-block modal_scanner_cod_bars" data-toggle="modal" data-target="#bd-example-modal-lg" type="button">
+	escaner
+</a>
+
+
+
+<div class="modal fade bs-example-modal-lg" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" style="display: none;" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myLargeModalLabel">Escaner de código de barras</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			</div>
+			<div class="modal-body">
+				<!-- <p id="resultado">Aquí aparecerá el código</p>
+				<p>A continuación, el contenedor: </p> -->
+				<div id="contenedor"></div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary close_modal_code_bars" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
+<script>
+     document.addEventListener("DOMContentLoaded", () => {
+				const $resultados = document.querySelector("#resultado");
+				Quagga.init({
+					inputStream: {
+						constraints: {
+							width: 500,
+							height: 500,
+						},
+						name: "Live",
+						type: "LiveStream",
+						target: document.querySelector('#contenedor'), // Pasar el elemento del DOM
+					},
+					decoder: {
+						readers: ["ean_reader"]
+					}
+				}, function (err) {
+					if (err) {
+						console.log(err);
+						return
+					}
+					console.log("Iniciado correctamente");
+					Quagga.start();
+				});
+
+				Quagga.onDetected((data) => {
+					_data = data.codeResult.code
+					console.log(_data);
+					$(".docI").val(_data)
+					$(".close_modal_code_bars").click()
+					$(".name_product").focus()
+				});
+
+				Quagga.onProcessed(function (result) {
+					var drawingCtx = Quagga.canvas.ctx.overlay,
+						drawingCanvas = Quagga.canvas.dom.overlay;
+
+					if (result) {
+						if (result.boxes) {
+							drawingCtx.clearRect(0, 0, parseInt(drawingCanvas.getAttribute("width")), parseInt(drawingCanvas.getAttribute("height")));
+							result.boxes.filter(function (box) {
+								return box !== result.box;
+							}).forEach(function (box) {
+								Quagga.ImageDebug.drawPath(box, { x: 0, y: 1 }, drawingCtx, { color: "green", lineWidth: 2 });
+							});
+						}
+
+						if (result.box) {
+							Quagga.ImageDebug.drawPath(result.box, { x: 0, y: 1 }, drawingCtx, { color: "#00F", lineWidth: 2 });
+						}
+
+						if (result.codeResult && result.codeResult.code) {
+							Quagga.ImageDebug.drawPath(result.line, { x: 'x', y: 'y' }, drawingCtx, { color: 'red', lineWidth: 3 });
+						}
+					}
+				});
+		});
+</script>
+<button type="button" class="btn mb-20 btn-primary btn-block" hidden id="PRODUCT_SAVE_SUCCESS"></button>
+<button type="button" class="btn mb-20 btn-primary btn-block" hidden id="PRODUCT_SAVE_ERROR"></button>
+
+{% endblock %}
+{% block script %}
+
+<script>
+
+
+
+
+
+	function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function time_sleep() {
+        for (let i = 0; i < 2; i++) {
+            console.log(`Waiting ${i} seconds...`);
+            await sleep(i * 1000);
+        }
+        $("form input[type=text]").each(function() { this.value = '' });
+		$("form input[type=number]").each(function() { this.value = '0' });
+		$('html, body').animate({
+			scrollTop: $(".alert_register_2").offset().top
+		}, 1000);
+		$(".docI").focus()
+    }
+	$(document).ready(function() {
+
+	    $(".code_bars").click(function(){
+			$(".modal_scanner_cod_bars").click()
+		})
+
+		$(".register_product").click(function(){
+			$("#REGISTRAMOSCLIENTE").click()
+			$.ajax({
+				url:"{% url 'Save_Product' %}",
+				data:$(".form_data_product").serialize(),
+				success:function(data){
+					if(data == "True"){
+						$("#PRODUCT_SAVE_SUCCESS").click()
+						time_sleep()
+
+					}
+					else{
+						$("#PRODUCT_SAVE_ERROR").click()
+					}
+				}
+			})
+		})
+	})
+</script>
+
+{% endblock %}

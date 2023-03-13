@@ -1,0 +1,60 @@
+{% extends '../base.html' %}
+{% block content %}
+<div class="card-box mb-30">
+	<div class="pd-20">
+		<h4 class="text-blue h4">Cierre de Caja</h4>
+	</div>
+	<div class="pb-20">
+		<table id="add_to_table_invoice" class="table stripe hover nowrap">
+			<thead>
+				<tr>
+					<th class="table-plus datatable-nosort" style="width: 10%;">Empleado</th>
+					<th style="width: 7%;">Mont. Apert.</th>
+					<th style="width: 7%;">Efectivo</th>
+					<th style="width: 7%;">Consignación</th>
+					<th style="width: 7%;">Crédito</th>
+					<th style="width: 7%;">Mont. Cierre</th>
+					<th style="width: 7%;">Fecha</th>
+					<th style="width: 7%;">Fact. Desde</th>
+					<th style="width: 7%;">Fact. Hasta</th>
+					<th style="width: 7%;">Activo</th>
+				</tr>
+			</thead>
+			<tbody class="father"></tbody>
+				{% for i in close_box %}
+					<tr>
+						<td>{{i.employee}}</td>
+						<td>{{i.open_total_box}}</td>
+						<td>{{i.efec}}</td>
+						<td>{{i.trans}}</td>
+						<td>{{i.cred}}</td>
+						<td>{{i.close_total_box}}</td>
+						<td>{{i.date_close}}</td>
+						<td>{{i.invoice_from}}</td>
+						<td>{{i.invoice_to}}</td>
+						<td>{% if i.active %}SI{% else %}NO{% endif %}</td>
+					</tr>
+				{% endfor %}
+		</table>
+	</div>
+</div>
+
+<div class="pd-20 card-box mb-30 col-sm-3 col-12 ml-auto">
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>Total:</td>
+				<td style="text-align: right;">$ &nbsp;<span id="Totals_Invoice">{{total}}</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}
+{% block script %}
+
+	<script>
+
+	</script>
+
+{% endblock %}
